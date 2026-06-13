@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="./assets/header.svg" width="100%" alt="Kanta Harada - AI, mobility, web apps, and interactive systems" />
-</p>
-
 <h1 align="center">Kanta Harada</h1>
 
 <p align="center">
@@ -137,31 +133,6 @@ mindmap
       Exhibition
       Game UX
 ```
-
----
-
-## GitHub Metrics
-
-<p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=kanta341&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&text_color=c9d1d9&icon_color=f97316" alt="GitHub Stats" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kanta341&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&text_color=c9d1d9" alt="Top Languages" />
-</p>
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=kanta341&theme=tokyonight&hide_border=true&background=0D1117&ring=38BDF8&fire=F97316&currStreakLabel=38BDF8" alt="GitHub Streak" />
-</p>
-
----
-
-## Contribution Graph
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/kanta341/kanta341/output/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/kanta341/kanta341/output/github-contribution-grid-snake.svg" />
-    <img src="https://raw.githubusercontent.com/kanta341/kanta341/output/github-contribution-grid-snake.svg" alt="GitHub contribution graph animation" />
-  </picture>
-</p>
 
 <p align="center">
   <sub>AI, mobility, web, and interactive systems from Tokyo.</sub>
