@@ -1,0 +1,88 @@
+<svg width="1600" height="520" viewBox="0 0 1600 520" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Kanta Harada profile header</title>
+  <desc id="desc">A dark terminal-inspired portfolio banner with neon cyan and orange accents.</desc>
+  <defs>
+    <radialGradient id="glowCyan" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1180 104) rotate(137) scale(620 410)">
+      <stop stop-color="#38BDF8" stop-opacity="0.45"/>
+      <stop offset="0.48" stop-color="#0EA5E9" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#020617" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowOrange" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(310 480) rotate(-29) scale(500 260)">
+      <stop stop-color="#F97316" stop-opacity="0.28"/>
+      <stop offset="0.58" stop-color="#FB923C" stop-opacity="0.08"/>
+      <stop offset="1" stop-color="#020617" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="panel" x1="118" y1="72" x2="1450" y2="470" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F172A" stop-opacity="0.86"/>
+      <stop offset="0.55" stop-color="#020617" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#111827" stop-opacity="0.82"/>
+    </linearGradient>
+    <linearGradient id="stroke" x1="120" y1="70" x2="1470" y2="458" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#38BDF8" stop-opacity="0.86"/>
+      <stop offset="0.52" stop-color="#64748B" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#F97316" stop-opacity="0.78"/>
+    </linearGradient>
+    <linearGradient id="textGradient" x1="190" y1="160" x2="780" y2="310" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F8FAFC"/>
+      <stop offset="0.55" stop-color="#BAE6FD"/>
+      <stop offset="1" stop-color="#FDBA74"/>
+    </linearGradient>
+    <filter id="softShadow" x="80" y="50" width="1440" height="440" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="24" stdDeviation="34" flood-color="#000000" flood-opacity="0.44"/>
+    </filter>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M 48 0 L 0 0 0 48" stroke="#334155" stroke-opacity="0.2" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1600" height="520" fill="#020617"/>
+  <rect width="1600" height="520" fill="url(#grid)"/>
+  <rect width="1600" height="520" fill="url(#glowCyan)"/>
+  <rect width="1600" height="520" fill="url(#glowOrange)"/>
+
+  <g opacity="0.4">
+    <path d="M0 392C212 318 316 462 520 386C735 306 806 118 1032 160C1205 192 1334 308 1600 202" stroke="#38BDF8" stroke-opacity="0.28" stroke-width="2"/>
+    <path d="M0 420C242 356 368 482 570 410C790 331 858 165 1070 202C1252 234 1378 336 1600 252" stroke="#F97316" stroke-opacity="0.22" stroke-width="2"/>
+  </g>
+
+  <g filter="url(#softShadow)">
+    <rect x="110" y="76" width="1380" height="368" rx="34" fill="url(#panel)" stroke="url(#stroke)" stroke-width="2"/>
+    <rect x="136" y="104" width="1328" height="312" rx="22" fill="#020617" fill-opacity="0.38" stroke="#1E293B"/>
+  </g>
+
+  <g transform="translate(166 134)">
+    <rect x="0" y="0" width="424" height="46" rx="23" fill="#08111F" stroke="#1E293B"/>
+    <circle cx="28" cy="23" r="7" fill="#F97316"/>
+    <circle cx="52" cy="23" r="7" fill="#FACC15"/>
+    <circle cx="76" cy="23" r="7" fill="#22C55E"/>
+    <text x="106" y="30" fill="#94A3B8" font-family="'SFMono-Regular', 'Consolas', 'Liberation Mono', monospace" font-size="18">~/kanta341/profile</text>
+  </g>
+
+  <g transform="translate(180 215)">
+    <text x="0" y="0" fill="#38BDF8" font-family="'SFMono-Regular', 'Consolas', 'Liberation Mono', monospace" font-size="25">$ whoami</text>
+    <text x="0" y="76" fill="url(#textGradient)" font-family="'Inter', 'Segoe UI', sans-serif" font-size="76" font-weight="800" letter-spacing="0">Kanta Harada</text>
+    <text x="4" y="126" fill="#CBD5E1" font-family="'Inter', 'Segoe UI', sans-serif" font-size="29" font-weight="500">AI systems, autonomous mobility, web apps, and interactive experiences.</text>
+  </g>
+
+  <g transform="translate(1040 142)">
+    <rect x="0" y="0" width="334" height="238" rx="28" fill="#020617" fill-opacity="0.72" stroke="#1E293B"/>
+    <text x="30" y="48" fill="#E2E8F0" font-family="'SFMono-Regular', 'Consolas', 'Liberation Mono', monospace" font-size="22">build_stack</text>
+    <g font-family="'SFMono-Regular', 'Consolas', 'Liberation Mono', monospace" font-size="18">
+      <text x="30" y="91" fill="#38BDF8">01</text>
+      <text x="76" y="91" fill="#CBD5E1">Computer Vision</text>
+      <text x="30" y="126" fill="#38BDF8">02</text>
+      <text x="76" y="126" fill="#CBD5E1">Full-stack Apps</text>
+      <text x="30" y="161" fill="#38BDF8">03</text>
+      <text x="76" y="161" fill="#CBD5E1">Machine Learning</text>
+      <text x="30" y="196" fill="#38BDF8">04</text>
+      <text x="76" y="196" fill="#CBD5E1">Exhibition UX</text>
+    </g>
+  </g>
+
+  <g opacity="0.9">
+    <circle cx="1398" cy="122" r="5" fill="#38BDF8"/>
+    <circle cx="1430" cy="154" r="3" fill="#F97316"/>
+    <circle cx="1004" cy="388" r="4" fill="#38BDF8"/>
+    <circle cx="932" cy="124" r="3" fill="#F97316"/>
+  </g>
+</svg>
